@@ -1,0 +1,317 @@
+.Mailer {
+  /* border: 1px solid white; */
+  width: 70%;
+  margin: 10% auto;
+}
+.Mailer__Heading {
+  color: rgb(204, 214, 246);
+  margin-bottom: 40px;
+}
+
+.Mailer__Heading:after {
+  background-color: #233554;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.Mailer__Heading:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.Mailer__Cards {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #5be8c9;
+}
+.Mailer__Cards > form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Mailer__Cards > form > input {
+  height: 50px;
+  width: 100%;
+  font-size: 16px;
+  padding-left: 5%;
+}
+.Form__Button {
+  background-color: #5be8c9;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+}
+.Mailer__Body {
+  display: flex;
+  justify-content: space-between;
+}
+.Mailer__Image {
+  width: 50%;
+  /* border: 1px solid white; */
+  height: 400px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Mailer {
+    /* border: 1px solid white; */
+    width: 70%;
+    margin: 10% auto;
+  }
+  .Mailer__Heading {
+    color: rgb(204, 214, 246);
+    margin-bottom: 40px;
+  }
+
+  .Mailer__Heading:after {
+    display: none;
+  }
+
+  .Mailer__Cards {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #5be8c9;
+  }
+  .Mailer__Cards > form {
+    /* border: 1px solid white; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Mailer__Cards > form > input {
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .Form__Button {
+    background-color: #5be8c9;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .Mailer__Body {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Mailer__Image {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .Mailer {
+    /* border: 1px solid white; */
+    width: 70%;
+    margin: 10% auto;
+  }
+  .Mailer__Heading {
+    color: rgb(204, 214, 246);
+    margin-bottom: 40px;
+  }
+
+  .Mailer__Heading:after {
+    background-color: #233554;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+  }
+
+  .Mailer__Heading:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  .Mailer__Cards {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #5be8c9;
+  }
+  .Mailer__Cards > form {
+    /* border: 1px solid white; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Mailer__Cards > form > input {
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .Form__Button {
+    background-color: #5be8c9;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .Mailer__Body {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Mailer__Image {
+    width: 40%;
+    /* border: 1px solid white; */
+    height: 400px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .Mailer {
+    /* border: 1px solid white; */
+    width: 70%;
+    margin: 10% auto;
+  }
+  .Mailer__Heading {
+    color: rgb(204, 214, 246);
+    margin-bottom: 40px;
+  }
+
+  .Mailer__Heading:after {
+    background-color: #233554;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+
+  .Mailer__Heading:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  .Mailer__Cards {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #5be8c9;
+  }
+  .Mailer__Cards > form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Mailer__Cards > form > input {
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .Form__Button {
+    background-color: #5be8c9;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .Mailer__Body {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Mailer__Image {
+    width: 50%;
+    /* border: 1px solid white; */
+    height: 400px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .Mailer {
+    /* border: 1px solid white; */
+    width: 70%;
+    margin: 10% auto;
+  }
+  .Mailer__Heading {
+    color: rgb(204, 214, 246);
+    margin-bottom: 40px;
+  }
+
+  .Mailer__Heading:after {
+    background-color: #233554;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+
+  .Mailer__Heading:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  .Mailer__Cards {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #5be8c9;
+  }
+  .Mailer__Cards > form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Mailer__Cards > form > input {
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .Form__Button {
+    background-color: #5be8c9;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .Mailer__Body {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Mailer__Image {
+    width: 50%;
+    /* border: 1px solid white; */
+    height: 400px;
+  }
+}

@@ -1,0 +1,12 @@
+.Footer {
+  /* border: 1px solid white; */
+  width: 70%;
+  margin: 2% auto;
+}
+.Footer__Heading {
+  color: rgb(204, 214, 246);
+  margin-bottom: 40px;
+  font-size: 15px;
+  overflow: hidden;
+  text-align: center;
+}

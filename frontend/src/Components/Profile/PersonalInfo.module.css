@@ -1,0 +1,583 @@
+.Container {
+  height: 500px;
+  width: 70%;
+  margin: 4% auto;
+  /* margin-top: 10%; */
+  /* border: 1px solid white; */
+  color: #64ffda;
+}
+.Container__Greetings {
+  margin: 0;
+}
+.Container__Name {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(204, 214, 246);
+  font-size: 80px;
+  margin: 0;
+}
+
+.Container__Profession {
+  font-family: "Open Sans", sans-serif;
+  color: #8892b0;
+  font-size: 60px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.Container__Info {
+  font-family: "Open Sans", sans-serif;
+  color: #8892b0;
+  width: 60%;
+  margin: 0;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.AboutMe {
+  /* border: 1px solid white; */
+  height: 500px;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.AboutMe__Left {
+  /* border: 1px solid white; */
+  width: 55%;
+}
+
+.AboutMe__Right {
+  /* border: 1px solid white; */
+  width: 45%;
+  position: relative;
+}
+
+.AboutMe__Left__Heading {
+  color: rgb(204, 214, 246);
+}
+.AboutMe__Left__Top {
+  display: none;
+}
+
+.AboutMe__Left__Heading:after {
+  background-color: #233554;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 70%;
+}
+
+.AboutMe__Left__Heading:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.Aboutme__Left__Info {
+  font-family: "Open Sans", sans-serif;
+  color: #8892b0;
+  text-align: justify;
+  margin-right: 5%;
+  line-height: 25px;
+  margin-bottom: 0;
+}
+.Aboutme__Left__Info__Table {
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  /* border: 1px solid white; */
+  width: 100%;
+  line-height: 25px;
+  margin-top: 0;
+  color: #8892b0;
+}
+
+.Aboutme__Left__Info__Table__Small {
+  display: none;
+}
+.Aboutme__Left__Info__Table__Body > tr > td > div {
+  display: flex;
+  align-items: center;
+}
+
+.AboutMe__Right__Top {
+  border: 5px solid white;
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Container {
+    height: 500px;
+    width: 70%;
+    margin: 4% auto;
+    /* margin-top: 10%; */
+    /* border: 1px solid white; */
+    color: #64ffda;
+  }
+  .Container > a > button {
+    width: 100%;
+  }
+  .Container__Greetings {
+    margin: 0;
+  }
+  .Container__Name {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(204, 214, 246);
+    font-size: 80px;
+    margin: 0;
+  }
+
+  .Container__Profession {
+    font-family: "Open Sans", sans-serif;
+    color: #8892b0;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .Container__Info {
+    font-family: "Open Sans", sans-serif;
+    color: #8892b0;
+    width: 100%;
+    margin: 0;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .AboutMe {
+    /* border: 1px solid white; */
+    /* height: 500px; */
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 400px;
+    margin-bottom: 550px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .AboutMe__Left {
+    /* border: 1px solid white; */
+    width: 1000%;
+  }
+
+  .AboutMe__Left__Heading {
+    color: rgb(204, 214, 246);
+  }
+  .AboutMe__Left__Top {
+    display: inline-block;
+    height: 200px;
+    width: 180px;
+  }
+  .AboutMe__Left__Top > img {
+    border-radius: 100%;
+    border: 5px solid white;
+    margin: 0 20%;
+  }
+
+  .AboutMe__Left__Heading:after {
+    display: none;
+  }
+
+  .Aboutme__Left__Info {
+    font-family: "Open Sans", sans-serif;
+    color: #8892b0;
+    text-align: justify;
+    margin-right: 5%;
+    line-height: 25px;
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+
+  .Aboutme__Left__Info__Table__Small {
+    font-family: "Space Mono", monospace;
+    display: inline-block;
+    font-size: 15px;
+    /* border: 1px solid white; */
+    width: 100%;
+    line-height: 25px;
+    margin-top: 0;
+    color: #8892b0;
+  }
+
+  .Aboutme__Left__Info__Table {
+    display: none;
+  }
+  .Aboutme__Left__Info__Table__Body > tr > td > div {
+    display: flex;
+    align-items: center;
+  }
+
+  .AboutMe__Right__Top {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .Container {
+    height: 500px;
+    width: 70%;
+    margin: 4% auto;
+    /* margin-top: 10%; */
+    /* border: 1px solid white; */
+    color: #64ffda;
+  }
+  .Container > a > button {
+    width: 100%;
+  }
+  .Container__Greetings {
+    margin: 0;
+  }
+  .Container__Name {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(204, 214, 246);
+    font-size: 80px;
+    margin: 0;
+  }
+
+  .Container__Profession {
+    font-family: "Open Sans", sans-serif;
+    color: #8892b0;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .Container__Info {
+    font-family: "Open Sans", sans-serif;
+    color: #8892b0;
+    width: 100%;
+    margin: 0;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .AboutMe {
+    /* border: 1px solid white; */
+    /* height: 500px; */
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 500px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .AboutMe__Left {
+    /* border: 1px solid white; */
+    width: 1000%;
+  }
+
+  .AboutMe__Left__Heading {
+    color: rgb(204, 214, 246);
+  }
+  .AboutMe__Left__Top {
+    display: inline-block;
+    height: 200px;
+    width: 180px;
+    margin-bottom: 50px;
+  }
+  .AboutMe__Left__Top > img {
+    border-radius: 100%;
+    border: 5px solid white;
+    margin: 0 100%;
+  }
+  .AboutMe__Left__Heading:after {
+    background-color: #233554;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 80%;
+  }
+
+  .AboutMe__Left__Heading:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+  .Aboutme__Left__Info {
+    /* border: 1px solid white; */
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    color: #8892b0;
+    text-align: justify;
+    margin: 0 2%;
+    line-height: 25px;
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+
+  .Aboutme__Left__Info__Table__Small {
+    font-family: "Space Mono", monospace;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 10%;
+    /* border: 1px solid white; */
+    width: 100%;
+    line-height: 25px;
+    margin-top: 0;
+    color: #8892b0;
+  }
+
+  .Aboutme__Left__Info__Table {
+    display: none;
+  }
+  .Aboutme__Left__Info__Table__Body > tr > td > div {
+    display: flex;
+    align-items: center;
+  }
+
+  .AboutMe__Right__Top {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .Container {
+    height: 500px;
+    width: 70%;
+    margin: 4% auto;
+    /* margin-top: 10%; */
+    /* border: 1px solid white; */
+    color: #64ffda;
+  }
+  .Container__Greetings {
+    margin: 0;
+  }
+  .Container__Name {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(204, 214, 246);
+    font-size: 80px;
+    margin: 0;
+  }
+
+  .Container__Profession {
+    font-family: "Open Sans", sans-serif;
+    color: #8892b0;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .Container__Info {
+    font-family: "Open Sans", sans-serif;
+    color: #8892b0;
+    width: 60%;
+    margin: 0;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .AboutMe {
+    /* border: 1px solid white; */
+    height: 500px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .AboutMe__Left {
+    /* border: 1px solid white; */
+    width: 55%;
+  }
+
+  .AboutMe__Right {
+    /* border: 1px solid white; */
+    width: 45%;
+    position: relative;
+  }
+
+  .AboutMe__Left__Heading {
+    color: rgb(204, 214, 246);
+  }
+  .AboutMe__Left__Top {
+    display: none;
+  }
+
+  .AboutMe__Left__Heading:after {
+    background-color: #233554;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 70%;
+  }
+
+  .AboutMe__Left__Heading:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+  .Aboutme__Left__Info {
+    font-family: "Open Sans", sans-serif;
+    color: #8892b0;
+    text-align: justify;
+    margin-right: 5%;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+  .Aboutme__Left__Info__Table {
+    font-family: "Space Mono", monospace;
+    font-size: 15px;
+    /* border: 1px solid white; */
+    width: 100%;
+    line-height: 25px;
+    margin-top: 0;
+    color: #8892b0;
+  }
+
+  .Aboutme__Left__Info__Table__Small {
+    display: none;
+  }
+  .Aboutme__Left__Info__Table__Body > tr > td > div {
+    display: flex;
+    align-items: center;
+  }
+
+  .AboutMe__Right__Top {
+    border: 5px solid white;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .Container {
+    height: 500px;
+    width: 70%;
+    margin: 4% auto;
+    /* margin-top: 10%; */
+    /* border: 1px solid white; */
+    color: #64ffda;
+  }
+  .Container__Greetings {
+    margin: 0;
+  }
+  .Container > a > button {
+    width: 30%;
+  }
+  .Container__Name {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(204, 214, 246);
+    font-size: 80px;
+    margin: 0;
+  }
+
+  .Container__Profession {
+    font-family: "Open Sans", sans-serif;
+    color: #8892b0;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .Container__Info {
+    font-family: "Open Sans", sans-serif;
+    color: #8892b0;
+    width: 60%;
+    margin: 0;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .AboutMe {
+    /* border: 1px solid white; */
+    height: 500px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .AboutMe__Left {
+    /* border: 1px solid white; */
+    width: 55%;
+  }
+
+  .AboutMe__Right {
+    /* border: 1px solid white; */
+    width: 45%;
+    position: relative;
+  }
+
+  .AboutMe__Left__Heading {
+    color: rgb(204, 214, 246);
+  }
+  .AboutMe__Left__Top {
+    display: none;
+  }
+
+  .AboutMe__Left__Heading:after {
+    background-color: #233554;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 70%;
+  }
+
+  .AboutMe__Left__Heading:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+  .Aboutme__Left__Info {
+    font-family: "Open Sans", sans-serif;
+    color: #8892b0;
+    text-align: justify;
+    margin-right: 5%;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+  .Aboutme__Left__Info__Table {
+    font-family: "Space Mono", monospace;
+    font-size: 15px;
+    display: inline-block;
+    /* border: 1px solid white; */
+    width: 100%;
+    line-height: 25px;
+    margin-top: 0;
+    color: #8892b0;
+  }
+
+  .Aboutme__Left__Info__Table__Small {
+    display: none;
+  }
+  .Aboutme__Left__Info__Table__Body > tr > td > div {
+    display: flex;
+    align-items: center;
+  }
+
+  .AboutMe__Right__Top {
+    border: 5px solid white;
+    height: 400px;
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

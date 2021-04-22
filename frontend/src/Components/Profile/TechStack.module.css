@@ -1,0 +1,47 @@
+.TechStack {
+  /* border: 1px solid white; */
+  width: 70%;
+  margin: 10% auto;
+}
+.TechStack__Heading {
+  color: rgb(204, 214, 246);
+  margin-bottom: 40px;
+}
+
+.TechStack__Heading:after {
+  background-color: #233554;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.TechStack__Heading:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.TechStack__Cards {
+  /* border: 1px solid white; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.TechStack__Cards__Card {
+  border: 5px solid #5be8c9;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.TechStack__Cards__Card > h4 {
+  color: white;
+  font-size: 15px;
+}

@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+html,
+body {
+  position: relative;
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}

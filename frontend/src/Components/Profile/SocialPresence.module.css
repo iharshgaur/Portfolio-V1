@@ -1,0 +1,180 @@
+.SocialPresence {
+  width: 70%;
+  margin: 10% auto;
+}
+.SocialPresence__Heading {
+  color: rgb(204, 214, 246);
+  margin-bottom: 40px;
+}
+
+.SocialPresence__Heading:after {
+  background-color: #233554;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.SocialPresence__Heading:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.SocialPresence__Cards {
+  /* border: 1px solid white; */
+  width: 70%;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.SocialPresence__Cards__Icon {
+  width: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ccd6f6;
+  text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .SocialPresence {
+    width: 80%;
+    margin: 10% auto;
+  }
+  .SocialPresence {
+    /* border: 1px solid white; */
+    width: 70%;
+    margin: 10% auto;
+  }
+  .SocialPresence__Heading {
+    color: rgb(204, 214, 246);
+    margin-bottom: 40px;
+  }
+
+  .SocialPresence__Heading:after {
+    display: none;
+  }
+  .SocialPresence__Cards {
+    /* border: 1px solid white; */
+    width: 200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .SocialPresence__Cards__Icon {
+    /* border: 1px solid white; */
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5% auto;
+    align-items: center;
+    color: #ccd6f6;
+    text-decoration: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .SocialPresence {
+    width: 70%;
+    margin: 10% auto;
+  }
+  .SocialPresence__Heading {
+    color: rgb(204, 214, 246);
+    margin-bottom: 40px;
+  }
+
+  .SocialPresence__Heading:after {
+    background-color: #233554;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+
+  .SocialPresence__Heading:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  .SocialPresence__Cards {
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .SocialPresence__Cards__Icon {
+    width: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ccd6f6;
+    text-decoration: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .SocialPresence {
+    width: 70%;
+    margin: 10% auto;
+  }
+  .SocialPresence__Heading {
+    color: rgb(204, 214, 246);
+    margin-bottom: 40px;
+  }
+
+  .SocialPresence__Heading:after {
+    background-color: #233554;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+
+  .SocialPresence__Heading:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  .SocialPresence__Cards {
+    /* border: 1px solid white; */
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .SocialPresence__Cards__Icon {
+    width: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ccd6f6;
+    text-decoration: none;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

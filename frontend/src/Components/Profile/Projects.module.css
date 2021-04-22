@@ -1,0 +1,326 @@
+.Projects {
+  /* border: 1px solid white; */
+  width: 70%;
+  margin: 10% auto;
+}
+
+.Projects__Heading {
+  color: #ccd6f6;
+  margin-bottom: 40px;
+}
+
+.Projects__Heading:after {
+  background-color: #233554;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.Projects__Heading:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.Projects__Cards {
+  /* border: 1px solid white; */
+  /* height: 600px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.Projects__Cards__Card {
+  width: 40%;
+  padding: 2%;
+  line-height: 20px;
+  height: 300px;
+  margin: 2% auto;
+  border-radius: 20px;
+  background: #0a192f;
+  -webkit-box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
+  box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
+}
+
+.Projects__Cards__Card__Project1,
+.Projects__Cards__Card__Project2,
+.Projects__Cards__Card__Project3,
+.Projects__Cards__Card__Project4 {
+  /* border: 1px solid white; */
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.Projects__Cards__Card__Project1 > div,
+.Projects__Cards__Card__Project2 > div,
+.Projects__Cards__Card__Project3 > div,
+.Projects__Cards__Card__Project4 > div {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+
+  display: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+
+  /* transform: scaleY(0);
+
+  transition: all 0.5s ease; */
+
+  /* border: 1px solid white; */
+}
+
+.Projects__Cards__Card__Project1:hover > div > div,
+.Projects__Cards__Card__Project2:hover > div > div,
+.Projects__Cards__Card__Project3:hover > div > div,
+.Projects__Cards__Card__Project4:hover > div > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  /* transform: scaleY(1); */
+  /* border: 1px solid white; */
+}
+.Projects__Cards__Card__Project1:hover > div > div > button,
+.Projects__Cards__Card__Project2:hover > div > div > button,
+.Projects__Cards__Card__Project3:hover > div > div > button,
+.Projects__Cards__Card__Project4:hover > div > div > button {
+  width: 40%;
+}
+.Projects__Cards__Card__Project1:hover > div,
+.Projects__Cards__Card__Project2:hover > div,
+.Projects__Cards__Card__Project3:hover > div,
+.Projects__Cards__Card__Project4:hover > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  color: #5be8c9;
+  text-align: center;
+  background-color: rgba(10, 25, 47, 0.856);
+  /* border: 1px solid white; */
+}
+
+.Projects__Cards__Card__Project1 {
+  background-size: cover;
+  background-image: url("../../Img/Chat.JPG");
+}
+
+.Projects__Cards__Card__Project2 {
+  background-size: cover;
+  background-image: url("../../Img/RevvClone.png");
+}
+
+.Projects__Cards__Card__Project3 {
+  background-size: cover;
+  background-image: url("../../Img/CouchSurferClone.png");
+}
+
+.Projects__Cards__Card__Project4 {
+  background-size: cover;
+
+  background-image: url("../../Img/CureFitClone.png");
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Projects {
+    /* border: 1px solid white; */
+    width: 70%;
+    margin: 10% auto;
+  }
+  .Projects__Heading {
+    color: #ccd6f6;
+    margin-bottom: 40px;
+  }
+  .Projects__Heading:after {
+    display: none;
+  }
+  .Projects__Cards {
+    /* border: 1px solid white; */
+    /* height: 600px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .Projects__Cards__Card {
+    width: 100%;
+    padding: 5%;
+    line-height: 20px;
+    height: 300px;
+    margin: 5% auto;
+    border-radius: 20px;
+    background: #0a192f;
+    -webkit-box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
+    box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .Projects {
+    /* border: 1px solid white; */
+    width: 70%;
+    margin: 10% auto;
+  }
+  .Projects__Heading {
+    color: #ccd6f6;
+    margin-bottom: 40px;
+  }
+  .Projects__Heading:after {
+    background-color: #233554;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+  }
+  .Projects__Heading:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  .Projects__Cards {
+    /* height: 600px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    /* justify-content: space-evenly; */
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .Projects__Cards__Card {
+    width: 100%;
+    padding: 3%;
+    line-height: 20px;
+    height: 300px;
+    margin: 5% auto;
+    border-radius: 20px;
+    background: #0a192f;
+    -webkit-box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
+    box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .Projects {
+    /* border: 1px solid white; */
+    width: 70%;
+    margin: 10% auto;
+  }
+  .Projects__Heading {
+    color: #ccd6f6;
+    margin-bottom: 40px;
+  }
+  .Projects__Heading:after {
+    background-color: #233554;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 30%;
+  }
+  .Projects__Heading:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  .Projects__Cards {
+    /* border: 1px solid white; */
+    /* height: 600px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .Projects__Cards__Card {
+    width: 40%;
+    padding: 2%;
+    line-height: 20px;
+    height: 300px;
+    margin: 2% auto;
+    border-radius: 20px;
+    background: #0a192f;
+    -webkit-box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
+    box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .Projects {
+    /* border: 1px solid white; */
+    width: 70%;
+    margin: 10% auto;
+  }
+  .Projects__Heading {
+    color: #ccd6f6;
+    margin-bottom: 40px;
+  }
+  .Projects__Heading:after {
+    background-color: #233554;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+  }
+  .Projects__Heading:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  .Projects__Cards {
+    /* border: 1px solid white; */
+    /* height: 600px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .Projects__Cards__Card {
+    width: 40%;
+    padding: 2%;
+    line-height: 20px;
+    height: 300px;
+    margin: 2% auto;
+    border-radius: 20px;
+    background: #0a192f;
+    -webkit-box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
+    box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
+  }
+}
+/*# sourceMappingURL=Projects.module.css.map */
