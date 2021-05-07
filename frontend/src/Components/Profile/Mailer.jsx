@@ -51,62 +51,64 @@ function Mailer() {
     data.reset();
   };
   return (
-    <div className={styles.Mailer} id="mailer">
-      <h2 className={styles.Mailer__Heading}>
-        Want to hire me? Let's connect 👋{" "}
-      </h2>
+    <>
+      <div id="mailer" style={{ height: "1px" }}></div>
 
-      <div className={styles.Mailer__Body}>
-        <div className={styles.Mailer__Cards}>
-          <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
-            <input
-              defaultValue=""
-              placeholder="Your Name"
-              {...register("username", { required: true })}
-            />
+      <div className={styles.Mailer}>
+        <h2 className={styles.Mailer__Heading}>Let's connect 👋 </h2>
 
-            {errors.username && <span>*This field is required</span>}
-            <br />
-            <input
-              placeholder="Your Email"
-              {...register("email", { required: true })}
-            />
-            {errors.email && <span>*This field is required</span>}
-            <br />
-            <input
-              placeholder="Subject of the email"
-              {...register("subject", { required: true })}
-            />
-            {errors.email && <span>*This field is required</span>}
-            <br />
-            <input
-              placeholder="Message ( please keep it short 😇  )"
-              {...register("message", { required: true })}
-            />
-
-            {errors.message && <span>*This field is required</span>}
-            <br />
-            {!sent ? (
+        <div className={styles.Mailer__Body}>
+          <div className={styles.Mailer__Cards}>
+            <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
               <input
-                type="submit"
-                className={styles.Form__Button}
-                value="Send"
+                defaultValue=""
+                placeholder="Your Name"
+                {...register("username", { required: true })}
               />
-            ) : (
+
+              {errors.username && <span>*This field is required</span>}
+              <br />
               <input
-                type="submit"
-                className={styles.Form__Button}
-                value="Message sent already"
-                disabled
-                style={{ backgroundColor: "grey" }}
+                placeholder="Your Email"
+                {...register("email", { required: true })}
               />
-            )}
-          </form>
+              {errors.email && <span>*This field is required</span>}
+              <br />
+              <input
+                placeholder="Subject of the email"
+                {...register("subject", { required: true })}
+              />
+              {errors.email && <span>*This field is required</span>}
+              <br />
+              <input
+                placeholder="Your Message"
+                {...register("message", { required: true })}
+              />
+
+              {errors.message && <span>*This field is required</span>}
+              <br />
+              {!sent ? (
+                <input
+                  type="submit"
+                  className={styles.Form__Button}
+                  value="Send"
+                />
+              ) : (
+                <input
+                  type="submit"
+                  className={styles.Form__Button}
+                  value="Message sent already"
+                  disabled
+                  style={{ backgroundColor: "grey" }}
+                />
+              )}
+            </form>
+          </div>
+
+          <MailerImg className={styles.Mailer__Image} />
         </div>
-
-        <MailerImg className={styles.Mailer__Image} />
       </div>
-    </div>
+    </>
   );
 }
 

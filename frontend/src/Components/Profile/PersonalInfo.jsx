@@ -20,7 +20,7 @@ function PersonalInfo() {
 
   return (
     <>
-      <div className={styles.Container}>
+      <div className={styles.Container} id="introduction">
         <p className={styles.Container__Greetings}>Hi, my name is</p>
         <p className={styles.Container__Name}>Harsh Gaur.</p>
         <p className={styles.Container__Profession}>Full Stack Developer.</p>
@@ -35,14 +35,14 @@ function PersonalInfo() {
           <Button className={classes.Button}> Get In Touch 💌 </Button>
         </a>
       </div>
-
-      <div className={styles.AboutMe} id="about">
+      <div id="about" style={{ height: "80px" }}></div>
+      <div className={styles.AboutMe}>
         <div className={styles.AboutMe__Left}>
           <h2 className={styles.AboutMe__Left__Heading}> About Me ✍ </h2>
 
           <div className={styles.AboutMe__Left__Top}>
             <img
-              src="https://i.ibb.co/qpQQt5r/imageedit-0-9789051645-Copy-removebg-preview.jpg"
+              src="../../Img/profile.jpg"
               alt="profile pic"
               style={{
                 width: "100%",
