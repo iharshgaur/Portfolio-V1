@@ -5,6 +5,19 @@
   /* margin-top: 10%; */
   /* border: 1px solid white; */
   color: #64ffda;
+  display: flex;
+}
+.Container__Left {
+  /* border: 1px solid white; */
+  width: 70%;
+}
+
+.Container__Right {
+  width: 30%;
+  height: 400px;
+}
+.Container__Right > img {
+  border: 5px;
 }
 .Container__Greetings {
   margin: 0;
@@ -44,13 +57,7 @@
 
 .AboutMe__Left {
   /* border: 1px solid white; */
-  width: 55%;
-}
-
-.AboutMe__Right {
-  /* border: 1px solid white; */
-  width: 45%;
-  position: relative;
+  width: 100%;
 }
 
 .AboutMe__Left__Heading {
@@ -79,7 +86,7 @@
   font-family: "Open Sans", sans-serif;
   color: #8892b0;
   text-align: justify;
-  margin-right: 5%;
+  margin-right: 15%;
   line-height: 25px;
   margin-bottom: 0;
 }
@@ -98,6 +105,7 @@
 }
 .Aboutme__Left__Info__Table__Body > tr > td > div {
   display: flex;
+  margin-left: 10px;
   align-items: center;
 }
 
@@ -120,6 +128,18 @@
     /* margin-top: 10%; */
     /* border: 1px solid white; */
     color: #64ffda;
+  }
+
+  .Container__Right {
+    display: none;
+  }
+  .Container__Left {
+    /* border: 1px solid white; */
+    width: 100%;
+  }
+
+  .Container__Profession {
+    font-size: 12px;
   }
   .Container > a > button {
     width: 100%;
@@ -189,7 +209,7 @@
     font-family: "Open Sans", sans-serif;
     color: #8892b0;
     text-align: justify;
-    margin-right: 5%;
+    margin-right: 15%;
     line-height: 25px;
     margin-bottom: 0;
     font-size: 15px;
@@ -211,6 +231,7 @@
   }
   .Aboutme__Left__Info__Table__Body > tr > td > div {
     display: flex;
+    margin-left: 10px;
     align-items: center;
   }
 
@@ -310,7 +331,7 @@
 
   .Aboutme__Left__Info {
     /* border: 1px solid white; */
-    width: 100%;
+    width: 85%;
     font-family: "Open Sans", sans-serif;
     color: #8892b0;
     text-align: justify;
@@ -336,7 +357,9 @@
     display: none;
   }
   .Aboutme__Left__Info__Table__Body > tr > td > div {
+    /* border: 1px solid #fff; */
     display: flex;
+    margin-left: 10px;
     align-items: center;
   }
 
@@ -447,6 +470,7 @@
   }
   .Aboutme__Left__Info__Table__Body > tr > td > div {
     display: flex;
+    margin-left: 10px;
     align-items: center;
   }
 
@@ -512,7 +536,7 @@
 
   .AboutMe__Left {
     /* border: 1px solid white; */
-    width: 55%;
+    width: 100%;
   }
 
   .AboutMe__Right {
@@ -568,6 +592,7 @@
   .Aboutme__Left__Info__Table__Body > tr > td > div {
     display: flex;
     align-items: center;
+    margin-left: 10px;
   }
 
   .AboutMe__Right__Top {

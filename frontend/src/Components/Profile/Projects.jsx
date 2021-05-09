@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
   },
   paper: {
-    backgroundColor: "rgba(10, 25, 47, 0.856)",
+    backgroundColor: "rgba(10, 25, 47)",
     width: "500px",
     color: "white",
     boxShadow: theme.shadows[10],
@@ -25,6 +25,8 @@ function Projects() {
   const [open2, setOpen2] = React.useState(false);
   const [open3, setOpen3] = React.useState(false);
   const [open4, setOpen4] = React.useState(false);
+  const [open5, setOpen5] = React.useState(false);
+  const [open6, setOpen6] = React.useState(false);
 
   const handleOpen1 = () => {
     setOpen1(true);
@@ -56,6 +58,20 @@ function Projects() {
 
   const handleClose4 = () => {
     setOpen4(false);
+  };
+  const handleOpen5 = () => {
+    setOpen5(true);
+  };
+
+  const handleClose5 = () => {
+    setOpen5(false);
+  };
+  const handleOpen6 = () => {
+    setOpen6(true);
+  };
+
+  const handleClose6 = () => {
+    setOpen6(false);
   };
 
   return (
@@ -167,6 +183,271 @@ function Projects() {
                             </Button>
                           </a>
                           {/* eslint-disable-next-line */}
+                          <a
+                            href="https://musing-hopper-374980.netlify.app/"
+                            style={{ textDecoration: "none" }}
+                          >
+                            <Button
+                              variant="outlined"
+                              style={{
+                                border: "1px solid #5BE8C9",
+                                color: "#5be8c9",
+                              }}
+                            >
+                              Demo
+                            </Button>
+                          </a>
+                          {/* eslint-disable-next-line */}
+                          {/* <a href="" style={{ textDecoration: "none" }}>
+                            <Button
+                              variant="outlined"
+                              style={{
+                                border: "1px solid #5BE8C9",
+                                color: "#5be8c9",
+                              }}
+                            >
+                              Blog
+                            </Button>
+                          </a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </Fade>
+                </Modal>
+              </div>
+            </div>
+          </div>
+          <div className={styles.Projects__Cards__Card}>
+            <div className={styles.Projects__Cards__Card__Project5}>
+              <div>
+                <h4>Sudoku Solver</h4>
+                <Button
+                  variant="outlined"
+                  style={{ border: "1px solid #5BE8C9", color: "#5be8c9" }}
+                  onClick={handleOpen5}
+                >
+                  Description
+                </Button>
+                <Modal
+                  aria-labelledby="transition-modal-title"
+                  aria-describedby="transition-modal-description"
+                  className={classes.modal}
+                  open={open5}
+                  onClose={handleClose5}
+                  closeAfterTransition
+                  BackdropComponent={Backdrop}
+                  BackdropProps={{
+                    timeout: 500,
+                  }}
+                >
+                  <Fade in={open5}>
+                    <div className={classes.paper}>
+                      <div
+                        style={{
+                          display: "flex",
+                          justifyContent: "flex-end",
+                          marginTop: "20px",
+                        }}
+                      >
+                        <button
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            textAlign: "center",
+                            backgroundColor: "transparent",
+                            border: "1px solid #5BE8C9",
+                            color: "#5be8c9",
+                            borderRadius: "1px",
+                            fontSize: "15px",
+                          }}
+                          onClick={handleClose5}
+                        >
+                          X
+                        </button>
+                      </div>
+                      <h2
+                        id="transition-modal-title"
+                        style={{ color: "#5be8c9" }}
+                      >
+                        Sudoku Solver
+                      </h2>
+                      <p id="transition-modal-description">
+                        Tech Stack: HTML, CSS, JavaScript
+                      </p>
+                      <p id="transition-modal-description">
+                        Description : An app that let's users to play sudoku
+                        online or solve the already existing sudoku puzzle.
+                      </p>
+                      <p id="transition-modal-description">
+                        My Responsibilities and Contributions:
+                        <ul>
+                          <li>Designed the layout</li>
+                          <li>Implemented the sudoke solver algorithm</li>
+                          <li>Built the whole UI and UX</li>
+                        </ul>
+                      </p>
+
+                      <div>
+                        <div
+                          style={{
+                            textDecoration: "none",
+                            display: "flex",
+                            justifyContent: "space-evenly",
+                          }}
+                        >
+                          <a
+                            href="https://github.com/iharshgaur/sudoku"
+                            style={{ textDecoration: "none" }}
+                          >
+                            <Button
+                              variant="outlined"
+                              style={{
+                                border: "1px solid #5BE8C9",
+                                color: "#5be8c9",
+                              }}
+                            >
+                              Github
+                            </Button>
+                          </a>
+                          {/* eslint-disable-next-line */}
+                          <a
+                            href="https://staticsudokusolver.netlify.app/"
+                            style={{ textDecoration: "none" }}
+                          >
+                            <Button
+                              variant="outlined"
+                              style={{
+                                border: "1px solid #5BE8C9",
+                                color: "#5be8c9",
+                              }}
+                            >
+                              Demo
+                            </Button>
+                          </a>
+                          {/* eslint-disable-next-line */}
+                          {/* <a href="" style={{ textDecoration: "none" }}>
+                            <Button
+                              variant="outlined"
+                              style={{
+                                border: "1px solid #5BE8C9",
+                                color: "#5be8c9",
+                              }}
+                            >
+                              Blog
+                            </Button>
+                          </a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </Fade>
+                </Modal>
+              </div>
+            </div>
+          </div>
+          <div className={styles.Projects__Cards__Card}>
+            <div className={styles.Projects__Cards__Card__Project6}>
+              <div>
+                <h4>Sanjeevani</h4>
+                <Button
+                  variant="outlined"
+                  style={{ border: "1px solid #5BE8C9", color: "#5be8c9" }}
+                  onClick={handleOpen6}
+                >
+                  Description
+                </Button>
+                <Modal
+                  aria-labelledby="transition-modal-title"
+                  aria-describedby="transition-modal-description"
+                  className={classes.modal}
+                  open={open6}
+                  onClose={handleClose6}
+                  closeAfterTransition
+                  BackdropComponent={Backdrop}
+                  BackdropProps={{
+                    timeout: 500,
+                  }}
+                >
+                  <Fade in={open6}>
+                    <div className={classes.paper}>
+                      <div
+                        style={{
+                          display: "flex",
+                          justifyContent: "flex-end",
+                          marginTop: "20px",
+                        }}
+                      >
+                        <button
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            textAlign: "center",
+                            backgroundColor: "transparent",
+                            border: "1px solid #5BE8C9",
+                            color: "#5be8c9",
+                            borderRadius: "1px",
+                            fontSize: "15px",
+                          }}
+                          onClick={handleClose6}
+                        >
+                          X
+                        </button>
+                      </div>
+                      <h2
+                        id="transition-modal-title"
+                        style={{ color: "#5be8c9" }}
+                      >
+                        Sanjeevani
+                      </h2>
+                      <p id="transition-modal-description">
+                        Tech Stack: Next.js, React.js, Express.js, Node.js,
+                        MongoDB, Material UI, and Ant Design
+                      </p>
+                      <p id="transition-modal-description">
+                        Description : This project was created during the Masai
+                        school's 48hr long hackathon and helped us to win among
+                        9-10 other teams. Sanjeevani is a web app aiming to
+                        solve the current crisis in the world by connecting
+                        hosts and seekers by providing them a platform for
+                        communication, fundraising, sharing their stories, and
+                        much more.
+                      </p>
+                      <p id="transition-modal-description">
+                        My Responsibilities and Contributions:
+                        <ul>
+                          <li>
+                            Worked on the Discussions portal where multiple
+                            users can chat with each other
+                          </li>
+                          <li>Built the user's profile page</li>
+                          <li>Worked on the design and built the UI</li>
+                        </ul>
+                      </p>
+
+                      <div>
+                        <div
+                          style={{
+                            textDecoration: "none",
+                            display: "flex",
+                            justifyContent: "space-evenly",
+                          }}
+                        >
+                          <a
+                            href="https://github.com/iharshgaur/sanjeevani"
+                            style={{ textDecoration: "none" }}
+                          >
+                            <Button
+                              variant="outlined"
+                              style={{
+                                border: "1px solid #5BE8C9",
+                                color: "#5be8c9",
+                              }}
+                            >
+                              Github
+                            </Button>
+                          </a>
+                          {/* eslint-disable-next-line */}
                           <a href="" style={{ textDecoration: "none" }}>
                             <Button
                               variant="outlined"
@@ -198,6 +479,7 @@ function Projects() {
               </div>
             </div>
           </div>
+
           <div className={styles.Projects__Cards__Card}>
             <div className={styles.Projects__Cards__Card__Project2}>
               <div>
@@ -316,7 +598,10 @@ function Projects() {
                             </Button>
                           </a>
                           {/* eslint-disable-next-line */}
-                          <a href="" style={{ textDecoration: "none" }}>
+                          <a
+                            href="https://harshgaur997.medium.com/i-tried-building-the-revv-clone-2b3efa095602"
+                            style={{ textDecoration: "none" }}
+                          >
                             <Button
                               variant="outlined"
                               style={{
@@ -441,7 +726,10 @@ function Projects() {
                             </Button>
                           </a>
                           {/* eslint-disable-next-line */}
-                          <a href="" style={{ textDecoration: "none" }}>
+                          <a
+                            href="https://couchsurfers-clone.netlify.app/"
+                            style={{ textDecoration: "none" }}
+                          >
                             <Button
                               variant="outlined"
                               style={{
@@ -453,7 +741,10 @@ function Projects() {
                             </Button>
                           </a>
                           {/* eslint-disable-next-line */}
-                          <a href="" style={{ textDecoration: "none" }}>
+                          <a
+                            href="https://harshgaur997.medium.com/i-tried-building-the-couchsurfing-clone-1a9f31fe16af"
+                            style={{ textDecoration: "none" }}
+                          >
                             <Button
                               variant="outlined"
                               style={{
@@ -579,19 +870,23 @@ function Projects() {
                             </Button>
                           </a>
                           {/* eslint-disable-next-line */}
-                          <a href="" style={{ textDecoration: "none" }}>
+                          {/* <a href="" style={{ textDecoration: "none" }}>
                             <Button
                               variant="outlined"
                               style={{
                                 border: "1px solid #5BE8C9",
                                 color: "#5be8c9",
                               }}
+                              disabled={true}
                             >
                               Demo
                             </Button>
-                          </a>
+                          </a> */}
                           {/* eslint-disable-next-line */}
-                          <a href="" style={{ textDecoration: "none" }}>
+                          <a
+                            href="https://harshgaur997.medium.com/how-i-made-a-cure-fit-website-clone-in-just-3-days-e5deab883dea"
+                            style={{ textDecoration: "none" }}
+                          >
                             <Button
                               variant="outlined"
                               style={{

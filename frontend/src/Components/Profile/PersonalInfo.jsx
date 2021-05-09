@@ -7,7 +7,7 @@ const useStyles = makeStyles({
   Button: {
     border: "1px solid #64FFDA",
     color: "#64FFDA",
-    width: "15%",
+    width: "50%",
     height: "50px",
     textTransform: "none",
   },
@@ -21,35 +21,38 @@ function PersonalInfo() {
   return (
     <>
       <div className={styles.Container} id="introduction">
-        <p className={styles.Container__Greetings}>Hi, my name is</p>
-        <p className={styles.Container__Name}>Harsh Gaur.</p>
-        <p className={styles.Container__Profession}>Full Stack Developer.</p>
-        <p className={styles.Container__Info}>
-          I'm a Delhi-based software engineer who loves to create React
-          applications for the web. Currently, I'm learning full stack and have
-          build few amazing fullstack applications and looking for opportunities
-          in full stack web development.
-        </p>
+        <div className={styles.Container__Left}>
+          <p className={styles.Container__Greetings}>Hi, my name is</p>
+          <p className={styles.Container__Name}>Harsh Gaur.</p>
+          <p className={styles.Container__Profession}>Full Stack Developer.</p>
+          <p className={styles.Container__Info}>
+            I'm a Delhi-based software engineer who loves to create React
+            applications for the web. Currently, I'm learning full stack and
+            have build few amazing fullstack applications and looking for
+            opportunities in full stack web development.
+          </p>
 
-        <a href="#mailer" style={{ textDecoration: "none" }}>
-          <Button className={classes.Button}> Get In Touch 💌 </Button>
-        </a>
+          <a href="#SocialPresence" style={{ textDecoration: "none" }}>
+            <Button className={classes.Button}> Get In Touch </Button>
+          </a>
+        </div>
+
+        <div className={styles.Container__Right}>
+          <img
+            src="https://i.imgur.com/2r5AsGJ.jpg"
+            alt="profile pics"
+            style={{
+              width: "100%",
+              height: "100%",
+            }}
+          />
+        </div>
       </div>
       <div id="about" style={{ height: "80px" }}></div>
       <div className={styles.AboutMe}>
         <div className={styles.AboutMe__Left}>
           <h2 className={styles.AboutMe__Left__Heading}> About Me ✍ </h2>
 
-          <div className={styles.AboutMe__Left__Top}>
-            <img
-              src="../../Img/profile.jpg"
-              alt="profile pic"
-              style={{
-                width: "100%",
-                height: "100%",
-              }}
-            />
-          </div>
           <p className={styles.Aboutme__Left__Info}>
             Hello! My name is Harsh Gaur and I enjoy creating things that live
             on the internet. My interest in web development started back in 2018
@@ -85,8 +88,8 @@ function PersonalInfo() {
               <tr>
                 <td>
                   <div>
-                    <OfflineBoltIcon className={classes.Skills} /> &nbsp;
-                    Javascript (ES6+)
+                    <OfflineBoltIcon className={classes.Skills} /> &nbsp; HTML
+                    and CSS
                   </div>
                 </td>
               </tr>
@@ -94,7 +97,7 @@ function PersonalInfo() {
                 <td>
                   <div>
                     <OfflineBoltIcon className={classes.Skills} />
-                    &nbsp; React
+                    &nbsp; Javascript (ES6+)
                   </div>
                 </td>
               </tr>
@@ -143,35 +146,21 @@ function PersonalInfo() {
                 <td>
                   <div>
                     <OfflineBoltIcon className={classes.Skills} />
-                    &nbsp; HTML and CSS
+                    &nbsp; Node.js
                   </div>
                 </td>
               </tr>
               <tr>
                 <td>
                   <div>
-                    <OfflineBoltIcon className={classes.Skills} /> &nbsp;
-                    Javascript (ES6+)
+                    <OfflineBoltIcon className={classes.Skills} /> &nbsp; HTML
+                    and CSS
                   </div>
                 </td>
                 <td>
                   <div>
                     <OfflineBoltIcon className={classes.Skills} />
-                    &nbsp; React
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div>
-                    <OfflineBoltIcon className={classes.Skills} />
-                    &nbsp; Express
-                  </div>
-                </td>
-                <td>
-                  <div>
-                    <OfflineBoltIcon className={classes.Skills} />
-                    &nbsp; MongoDB
+                    &nbsp; SQL and NoSQL
                   </div>
                 </td>
               </tr>
@@ -179,31 +168,32 @@ function PersonalInfo() {
                 <td>
                   <div>
                     <OfflineBoltIcon className={classes.Skills} />
-                    &nbsp; Node.js{" "}
+                    &nbsp; Javascript (ES6+)
                   </div>
                 </td>
                 <td>
                   <div>
                     <OfflineBoltIcon className={classes.Skills} />
-                    &nbsp; Material UI
+                    &nbsp; MongoDB and Express
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div>
+                    <OfflineBoltIcon className={classes.Skills} />
+                    &nbsp; React.js
+                  </div>
+                </td>
+                <td>
+                  <div>
+                    <OfflineBoltIcon className={classes.Skills} />
+                    &nbsp; Material UI and Ant Design
                   </div>
                 </td>
               </tr>
             </tbody>
           </table>
-        </div>
-        <div className={styles.AboutMe__Right}>
-          <div className={styles.AboutMe__Right__Top}>
-            <img
-              src="https://i.ibb.co/qpQQt5r/imageedit-0-9789051645-Copy-removebg-preview.jpg"
-              alt="profile pic"
-              style={{
-                objectFit: "fill",
-                width: "100%",
-                height: "100%",
-              }}
-            />
-          </div>
         </div>
       </div>
     </>

@@ -14,10 +14,9 @@ function Profile() {
       <Navbar />
       <PersonalInfo />
       <SocialPresence />
-      <WorkExperience />
-      <Stats />
       <Projects />
-      <Mailer />
+      <Stats />
+      <WorkExperience />
       <Footer />
     </div>
   );

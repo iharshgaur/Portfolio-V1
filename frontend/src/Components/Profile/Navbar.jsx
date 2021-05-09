@@ -29,7 +29,7 @@ function Navbar() {
         <a href="#projects" className={styles.Container__Right__Link}>
           Projects
         </a>
-        <a href="#mailer" className={styles.Container__Right__Link}>
+        <a href="#SocialPresence" className={styles.Container__Right__Link}>
           Contact
         </a>
         <a

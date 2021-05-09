@@ -16,12 +16,12 @@ function WorkExperience() {
               Python Developer{" "}
               <em style={{ color: "#64FFDA" }}> @Apex Tier Technologies </em>
             </p>
-            <p style={{ color: "#646F8B", marginLeft: 20 }}>
+            <p style={{ color: "#c6d1f0", marginLeft: 20 }}>
               July 2019 - December 2019
             </p>
             <p
               style={{
-                color: "#646F8B",
+                color: "#c6d1f0",
                 marginLeft: 20,
               }}
             >
@@ -30,7 +30,7 @@ function WorkExperience() {
             </p>
             <p
               style={{
-                color: "#646F8B",
+                color: "#c6d1f0",
                 marginLeft: 20,
               }}
             >
@@ -38,7 +38,7 @@ function WorkExperience() {
             </p>
             <ul
               style={{
-                color: "#646F8B",
+                color: "#c6d1f0",
                 marginLeft: 20,
                 lineheight: "20px",
               }}
@@ -66,12 +66,12 @@ function WorkExperience() {
               Web Developer Intern{" "}
               <em style={{ color: "#64FFDA" }}> @N.H.P.C </em>
             </p>
-            <p style={{ color: "#646F8B", marginLeft: 20 }}>
+            <p style={{ color: "#c6d1f0", marginLeft: 20 }}>
               July 2018 - December 2018
             </p>
             <p
               style={{
-                color: "#646F8B",
+                color: "#c6d1f0",
                 marginLeft: 20,
               }}
             >
@@ -84,7 +84,7 @@ function WorkExperience() {
             </p>
             <p
               style={{
-                color: "#646F8B",
+                color: "#c6d1f0",
                 marginLeft: 20,
               }}
             >
@@ -92,7 +92,7 @@ function WorkExperience() {
             </p>
             <ul
               style={{
-                color: "#646F8B",
+                color: "#c6d1f0",
                 marginLeft: 20,
               }}
             >
