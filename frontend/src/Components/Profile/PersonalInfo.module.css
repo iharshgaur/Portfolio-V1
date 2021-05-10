@@ -17,7 +17,8 @@
   height: 400px;
 }
 .Container__Right > img {
-  border: 5px;
+  border: 5px solid white;
+  border-radius: 10px;
 }
 .Container__Greetings {
   margin: 0;
@@ -270,6 +271,12 @@
   .Container__Greetings {
     margin: 0;
   }
+  .Container__Right {
+    display: none;
+  }
+  .AboutMe__Right {
+    display: none;
+  }
   .Container__Name {
     font-family: "Open Sans", sans-serif;
     color: rgb(204, 214, 246);
@@ -414,7 +421,9 @@
     line-height: 30px;
     margin-bottom: 30px;
   }
-
+  .Container__Right {
+    display: block;
+  }
   .AboutMe {
     /* border: 1px solid white; */
     height: 500px;
@@ -429,12 +438,21 @@
     width: 55%;
   }
 
+  .AboutMe__Right__Img {
+    width: 100%;
+  }
+
   .AboutMe__Right {
     /* border: 1px solid white; */
     width: 45%;
+    display: inline;
     position: relative;
   }
-
+  .AboutMe__Right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .AboutMe__Left__Heading {
     color: rgb(204, 214, 246);
   }
@@ -548,7 +566,13 @@
     /* border: 1px solid white; */
     width: 100%;
   }
-
+  .AboutMe__Right {
+    display: flex;
+    align-items: center;
+  }
+  .AboutMe__Right__Img {
+    width: 100%;
+  }
   .AboutMe__Right {
     /* border: 1px solid white; */
     width: 45%;

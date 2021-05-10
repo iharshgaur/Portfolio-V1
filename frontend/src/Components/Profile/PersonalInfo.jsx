@@ -4,6 +4,7 @@ import { Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import OfflineBoltIcon from "@material-ui/icons/OfflineBolt";
 import { ReactComponent as Hello } from "../../svg/undraw_Hello_qnas.svg";
+import MailOutlineIcon from "@material-ui/icons/MailOutline";
 const useStyles = makeStyles({
   Button: {
     border: "1px solid #64FFDA",
@@ -34,7 +35,10 @@ function PersonalInfo() {
           </p>
 
           <a href="#SocialPresence" style={{ textDecoration: "none" }}>
-            <Button className={classes.Button}> Get In Touch </Button>
+            <Button className={classes.Button}>
+              {" "}
+              Get In Touch &nbsp; <MailOutlineIcon />{" "}
+            </Button>
           </a>
         </div>
 
@@ -43,8 +47,9 @@ function PersonalInfo() {
             src="https://i.imgur.com/2r5AsGJ.jpg"
             alt="profile pics"
             style={{
-              width: "100%",
+              width: "300px",
               height: "100%",
+              display: "block",
             }}
           />
         </div>
