@@ -33,14 +33,14 @@ function Navbar() {
           Contact
         </a>
         <a
-          href="https://drive.google.com/file/d/1L8JzI8WMcEauXD73P-nCPOWYLYZ23vAh/view?usp=sharing"
+          href="https://drive.google.com/file/d/1nw7Taga_4PcjV6oejBIAnX86QLBNwoYJ/view?usp=sharing"
           style={{ textDecoration: "none", color: "#64ffda" }}
         >
           <Button className={classes.Button}> Resume </Button>
         </a>
       </div>
       <a
-        href="https://drive.google.com/file/d/1L8JzI8WMcEauXD73P-nCPOWYLYZ23vAh/view?usp=sharing"
+        href="https://drive.google.com/file/d/1nw7Taga_4PcjV6oejBIAnX86QLBNwoYJ/view?usp=sharing"
         style={{ textDecoration: "none", color: "#64ffda", marginRight: "5%" }}
         className={styles.ResumeSmall}
       >

@@ -89,7 +89,11 @@ function Projects() {
                 <h4>Real Time Chat Application</h4>
                 <Button
                   variant="outlined"
-                  style={{ border: "1px solid #5BE8C9", color: "#5be8c9" }}
+                  style={{
+                    border: "1px solid #5BE8C9",
+                    color: "#5be8c9",
+                    fontWeight: "bold",
+                  }}
                   onClick={handleOpen1}
                 >
                   Description
@@ -134,7 +138,7 @@ function Projects() {
                       </div>
                       <h2
                         id="transition-modal-title"
-                        style={{ color: "#5be8c9" }}
+                        style={{ color: "#5BE8C9" }}
                       >
                         Real Time Chat Application
                       </h2>
@@ -223,7 +227,11 @@ function Projects() {
                 <h4>Sudoku Solver</h4>
                 <Button
                   variant="outlined"
-                  style={{ border: "1px solid #5BE8C9", color: "#5be8c9" }}
+                  style={{
+                    border: "1px solid #5BE8C9",
+                    color: "#5be8c9",
+                    fontWeight: "bold",
+                  }}
                   onClick={handleOpen5}
                 >
                   Description
@@ -351,7 +359,11 @@ function Projects() {
                 <h4>Sanjeevani</h4>
                 <Button
                   variant="outlined"
-                  style={{ border: "1px solid #5BE8C9", color: "#5be8c9" }}
+                  style={{
+                    border: "1px solid #5BE8C9",
+                    color: "#5be8c9",
+                    fontWeight: "bold",
+                  }}
                   onClick={handleOpen6}
                 >
                   Description
@@ -486,7 +498,11 @@ function Projects() {
                 <h4>Revv Cars Clone</h4>
                 <Button
                   variant="outlined"
-                  style={{ border: "1px solid #5BE8C9", color: "#5be8c9" }}
+                  style={{
+                    border: "1px solid #5BE8C9",
+                    color: "#5be8c9",
+                    fontWeight: "bold",
+                  }}
                   onClick={handleOpen2}
                 >
                   Description
@@ -626,7 +642,11 @@ function Projects() {
                 <h4>Couch Surfer Clone</h4>
                 <Button
                   variant="outlined"
-                  style={{ border: "1px solid #5BE8C9", color: "#5be8c9" }}
+                  style={{
+                    border: "1px solid #5BE8C9",
+                    color: "#5be8c9",
+                    fontWeight: "bold",
+                  }}
                   onClick={handleOpen3}
                 >
                   Description
@@ -769,7 +789,11 @@ function Projects() {
                 <h4>Cult Fit Clone</h4>
                 <Button
                   variant="outlined"
-                  style={{ border: "1px solid #5BE8C9", color: "#5be8c9" }}
+                  style={{
+                    border: "1px solid #5BE8C9",
+                    color: "#5be8c9",
+                    fontWeight: "bold",
+                  }}
                   onClick={handleOpen4}
                 >
                   Description

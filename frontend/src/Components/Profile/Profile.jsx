@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
-import Mailer from "./Mailer";
+
 import Navbar from "./Navbar";
 import PersonalInfo from "./PersonalInfo";
 import styles from "./Profile.module.css";
@@ -13,10 +13,10 @@ function Profile() {
     <div className={styles.Profile}>
       <Navbar />
       <PersonalInfo />
-      <SocialPresence />
       <Projects />
-      <Stats />
       <WorkExperience />
+      <SocialPresence />
+      <Stats />
       <Footer />
     </div>
   );

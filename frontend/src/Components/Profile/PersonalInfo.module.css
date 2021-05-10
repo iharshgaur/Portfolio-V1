@@ -118,6 +118,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.AboutMe__Right {
+  display: flex;
+  align-items: center;
+}
+.AboutMe__Right__Img {
+  width: 100%;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -236,6 +243,9 @@
   }
 
   .AboutMe__Right__Top {
+    display: none;
+  }
+  .AboutMe__Right {
     display: none;
   }
 }

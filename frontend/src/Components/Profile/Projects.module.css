@@ -44,9 +44,7 @@
   height: 300px;
   margin: 2% auto;
   border-radius: 20px;
-  background: #0a192f;
-  -webkit-box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
-  box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
+  background: #060f1d;
 }
 
 .Projects__Cards__Card__Project1,
@@ -110,10 +108,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0.9;
+
   color: #5be8c9;
   text-align: center;
-  background-color: rgba(10, 25, 47, 0.856);
+  background-color: #060f1dc2;
   /* border: 1px solid white; */
 }
 
@@ -184,8 +182,6 @@
     margin: 5% auto;
     border-radius: 20px;
     background: #0a192f;
-    -webkit-box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
-    box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
   }
 }
 
@@ -232,8 +228,6 @@
     margin: 5% auto;
     border-radius: 20px;
     background: #0a192f;
-    -webkit-box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
-    box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
   }
 }
 
@@ -281,8 +275,6 @@
     margin: 2% auto;
     border-radius: 20px;
     background: #0a192f;
-    -webkit-box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
-    box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
   }
 }
 
@@ -329,8 +321,6 @@
     height: 300px;
     margin: 2% auto;
     border-radius: 20px;
-    background: #0a192f;
-    -webkit-box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
-    box-shadow: 11px 11px 22px #091528, -11px -11px 22px #0c1d36;
+    background: #060f1d;
   }
 }

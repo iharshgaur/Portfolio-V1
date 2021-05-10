@@ -3,6 +3,7 @@ import styles from "./PersonalInfo.module.css";
 import { Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import OfflineBoltIcon from "@material-ui/icons/OfflineBolt";
+import { ReactComponent as Hello } from "../../svg/undraw_Hello_qnas.svg";
 const useStyles = makeStyles({
   Button: {
     border: "1px solid #64FFDA",
@@ -194,6 +195,9 @@ function PersonalInfo() {
               </tr>
             </tbody>
           </table>
+        </div>
+        <div className={styles.AboutMe__Right}>
+          <Hello className={styles.AboutMe__Right__Img} />
         </div>
       </div>
     </>

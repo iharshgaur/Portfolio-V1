@@ -1,10 +1,8 @@
 .SocialPresence {
   width: 70%;
-  margin: 10% auto;
 }
 .SocialPresence__Heading {
   color: rgb(204, 214, 246);
-  margin-bottom: 40px;
 }
 
 .SocialPresence__Heading:after {
@@ -44,12 +42,10 @@
 @media only screen and (max-width: 600px) {
   .SocialPresence {
     width: 80%;
-    margin: 10% auto;
   }
   .SocialPresence {
     /* border: 1px solid white; */
     width: 70%;
-    margin: 10% auto;
   }
   .SocialPresence__Heading {
     color: rgb(204, 214, 246);
@@ -134,7 +130,6 @@
 @media only screen and (min-width: 992px) {
   .SocialPresence {
     width: 70%;
-    margin: 10% auto;
   }
   .SocialPresence__Heading {
     color: rgb(204, 214, 246);

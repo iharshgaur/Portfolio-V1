@@ -27,7 +27,7 @@ function Stats() {
           </h4>
         </div>
         <img
-          src="https://github-readme-stats.vercel.app/api?username=iharshgaur&&show_icons=true&title_color=5BE8C9&icon_color=5BE8C9&text_color=ffffff&bg_color=0A192F"
+          src="https://github-readme-stats.vercel.app/api?username=iharshgaur&&show_icons=true&title_color=5BE8C9&icon_color=5BE8C9&text_color=ffffff&bg_color=060f1d"
           alt="git stats"
           width="60%"
         />
