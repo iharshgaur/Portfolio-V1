@@ -48,7 +48,7 @@ function SocialPresence() {
           </a>
 
           <a
-            href="mailto: harshgaur997@gmail.com"
+            href="mailto: 3o8kay5vn@mozmail.com"
             className={styles.SocialPresence__Cards__Icon}
           >
             <img
@@ -57,17 +57,6 @@ function SocialPresence() {
               width="60px"
             />
             <p> Gmail</p>
-          </a>
-          <a
-            href="tel:+919206287274"
-            className={styles.SocialPresence__Cards__Icon}
-          >
-            <img
-              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDQ4MC41NiA0ODAuNTYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTM2NS4zNTQsMzE3LjljLTE1LjctMTUuNS0zNS4zLTE1LjUtNTAuOSwwYy0xMS45LDExLjgtMjMuOCwyMy42LTM1LjUsMzUuNmMtMy4yLDMuMy01LjksNC05LjgsMS44ICAgIGMtNy43LTQuMi0xNS45LTcuNi0yMy4zLTEyLjJjLTM0LjUtMjEuNy02My40LTQ5LjYtODktODFjLTEyLjctMTUuNi0yNC0zMi4zLTMxLjktNTEuMWMtMS42LTMuOC0xLjMtNi4zLDEuOC05LjQgICAgYzExLjktMTEuNSwyMy41LTIzLjMsMzUuMi0zNS4xYzE2LjMtMTYuNCwxNi4zLTM1LjYtMC4xLTUyLjFjLTkuMy05LjQtMTguNi0xOC42LTI3LjktMjhjLTkuNi05LjYtMTkuMS0xOS4zLTI4LjgtMjguOCAgICBjLTE1LjctMTUuMy0zNS4zLTE1LjMtNTAuOSwwLjFjLTEyLDExLjgtMjMuNSwyMy45LTM1LjcsMzUuNWMtMTEuMywxMC43LTE3LDIzLjgtMTguMiwzOS4xYy0xLjksMjQuOSw0LjIsNDguNCwxMi44LDcxLjMgICAgYzE3LjYsNDcuNCw0NC40LDg5LjUsNzYuOSwxMjguMWM0My45LDUyLjIsOTYuMyw5My41LDE1Ny42LDEyMy4zYzI3LjYsMTMuNCw1Ni4yLDIzLjcsODcuMywyNS40YzIxLjQsMS4yLDQwLTQuMiw1NC45LTIwLjkgICAgYzEwLjItMTEuNCwyMS43LTIxLjgsMzIuNS0zMi43YzE2LTE2LjIsMTYuMS0zNS44LDAuMi01MS44QzQwMy41NTQsMzU1LjksMzg0LjQ1NCwzMzYuOSwzNjUuMzU0LDMxNy45eiIgZmlsbD0iIzJlYzg2NiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJCTxwYXRoIGQ9Ik0zNDYuMjU0LDIzOC4ybDM2LjktNi4zYy01LjgtMzMuOS0yMS44LTY0LjYtNDYuMS04OWMtMjUuNy0yNS43LTU4LjItNDEuOS05NC00Ni45bC01LjIsMzcuMSAgICBjMjcuNywzLjksNTIuOSwxNi40LDcyLjgsMzYuM0MzMjkuNDU0LDE4OC4yLDM0MS43NTQsMjEyLDM0Ni4yNTQsMjM4LjJ6IiBmaWxsPSIjMmVjODY2IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+CgkJPHBhdGggZD0iTTQwMy45NTQsNzcuOGMtNDIuNi00Mi42LTk2LjUtNjkuNS0xNTYtNzcuOGwtNS4yLDM3LjFjNTEuNCw3LjIsOTgsMzAuNSwxMzQuOCw2Ny4yYzM0LjksMzQuOSw1Ny44LDc5LDY2LjEsMTI3LjUgICAgbDM2LjktNi4zQzQ3MC44NTQsMTY5LjMsNDQ0LjM1NCwxMTguMyw0MDMuOTU0LDc3Ljh6IiBmaWxsPSIjMmVjODY2IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg=="
-              alt="Phone"
-              width="60px"
-            />
-            <p> Phone</p>
           </a>
         </div>
       </div>
